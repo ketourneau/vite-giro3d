@@ -1,7 +1,6 @@
-import Instance from "@giro3d/giro3d/src/core/Instance.js";
-import PotreeSource from "@giro3d/giro3d/src/sources/PotreeSource.js";
-import PotreePointCloud from "@giro3d/giro3d/src/entities/PotreePointCloud.js";
-
+import Instance from "@giro3d/giro3d/core/Instance.js";
+import PotreeSource from "@giro3d/giro3d/sources/PotreeSource.js";
+import PotreePointCloud from "@giro3d/giro3d/entities/PotreePointCloud.js";
 
 export default class ViewerPC {
     constructor(container: HTMLElement) {
